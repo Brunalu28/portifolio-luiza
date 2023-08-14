@@ -1,0 +1,97 @@
+.sectionInicial {
+  display: flex;
+  align-items: center;
+  padding: 3rem 5rem 0;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.text {
+  width: 80%;
+  padding: 0 2%;
+  font-size: 24px;
+}
+.text > p {
+  padding: 2rem 3rem 0 0;
+  color: var(--gray-400);
+  font-size: 24px;
+}
+.img > img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: auto;
+  background-size: 10px;
+}
+
+.buttom {
+  padding: 2rem 0 0 0;
+}
+.sectionprojects {
+  background-color: va(--white);
+}
+.sectionprojects > section {
+  padding: 5rem;
+  gap: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 0 0;
+}
+.card {
+  padding: 4rem;
+  color: var(--white);
+  background-color: var(--pink-500);
+  border-radius: 5px;
+  flex-basis: calc(30% - 20px);
+}
+.card > p {
+  padding: 2rem 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .sectionInicial {
+    flex-direction: column;
+  }
+
+  .text {
+    width: 100%; /* Ocupar a largura total */
+    padding: 0;
+    font-size: 18px; /* Tamanho de fonte menor para dispositivos móveis */
+    text-align: center; /* Centralize o texto */
+  }
+
+  .text > p {
+    padding: 1rem 0; /* Reduza o espaçamento */
+    font-size: 18px;
+  }
+
+  .img > img {
+    padding: 1rem 0; /* Reduza o espaçamento */
+  }
+
+  .buttom {
+    padding: 1rem 0; /* Reduza o espaçamento */
+  }
+
+  .sectionprojects > section {
+    padding: 2rem; /* Reduza o espaçamento */
+  }
+
+  .title {
+    text-align: center;
+    padding: 2rem 0; /* Reduza o espaçamento */
+  }
+
+  .card {
+    padding: 2rem;
+    flex-basis: calc(50% - 20px); /* Menos colunas por linha */
+  }
+
+  .card > p {
+    padding: 1rem 0; /* Reduza o espaçamento */
+  }
+}

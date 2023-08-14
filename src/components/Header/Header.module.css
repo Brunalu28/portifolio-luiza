@@ -1,0 +1,20 @@
+.header {
+  background: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 6rem;
+  gap: 3.5rem;
+  color: var(--pink-500);
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem; /* Reduza o espaçamento */
+    justify-content: center; /* Centralize os itens horizontalmente */
+    align-items: center; /* Centralize os itens verticalmente */
+    text-align: center; /* Centralize o texto */
+  }
+
+  .header > * {
+    margin-bottom: 1rem; /* Adicione um espaçamento inferior entre os itens */
+  }
+}

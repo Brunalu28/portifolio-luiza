@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --white: #ffffff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --pink-500: #ff7999;
+  --green-300: #00b37e;
+  --green-500: #00875f;
+
+  --red-500: #f75a6b;
+
+  color: var(--gray-600);
+  background-color: var(--white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--pink-500);
+  cursor: pointer;
+  color: var(--white);
+}
+button:hover {
+  border-color: var(--white);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos móveis */
+  }
+
+  .container {
+    width: 100%; /* Utilize toda a largura da tela */
+    padding: 10px; /* Adicione espaçamento interno */
+  }
+
+  /* Outros estilos para dispositivos móveis */
+}
