@@ -1,8 +1,18 @@
-# React + Vite
+<h1 align="center"> Portifólio - Luiza Bruna</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+Esse portifólio está sendo desenvolvido para por em prática meus conhecimentos em react, experimentar novas ferramentas e aplicar novos conhecimentos. 
+</p>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
+
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- React
+- Vite
+- Figma
+
+Feito com ♥ by [Brunalu28](https://github.com/Brunalu28) 🚀
