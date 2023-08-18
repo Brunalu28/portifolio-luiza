@@ -8,13 +8,13 @@
 }
 @media (max-width: 768px) {
   .header {
-    padding: 1rem; /* Reduza o espaçamento */
-    justify-content: center; /* Centralize os itens horizontalmente */
-    align-items: center; /* Centralize os itens verticalmente */
-    text-align: center; /* Centralize o texto */
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .header > * {
-    margin-bottom: 1rem; /* Adicione um espaçamento inferior entre os itens */
+    margin-bottom: 1rem;
   }
 }
