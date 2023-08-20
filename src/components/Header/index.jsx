@@ -1,12 +1,29 @@
+import React, { useState } from "react";
 import styles from "../Header/Header.module.css";
 
 export function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  function toggleMenu() {
+    setIsMenuOpen(!isMenuOpen);
+  }
   return (
     <div>
       <header className={styles.header}>
-        <h2>Home</h2>
-        <h2>Work</h2>
-        <h2>Contact</h2>
+        <nav id="nav">
+          <button
+            id="btnMobile"
+            className={styles.btnMobile}
+            onClick={toggleMenu}
+          >
+            Menu
+          </button>
+          <ul className={`${styles.menu} ${isMenuOpen ? "active" : ""}`}>
+            <li>Home</li>
+            <li>Work</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
       </header>
     </div>
   );

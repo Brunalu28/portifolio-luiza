@@ -6,9 +6,7 @@ import { Header } from "./components/Header";
 export function App() {
   return (
     <div>
-      <div>
-        <Header />
-      </div>
+      <Header />
       <section className={styles.sectionInicial}>
         <div className={styles.text}>
           <h1>Olá, seja Bem Vindo!</h1>
