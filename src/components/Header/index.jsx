@@ -18,7 +18,7 @@ export function Header() {
           >
             Menu
           </button>
-          <ul className={`${styles.menu} ${isMenuOpen ? "active" : ""}`}>
+          <ul className={isMenuOpen ? "menuactive" : "menu"}>
             <li>Home</li>
             <li>Work</li>
             <li>Contact</li>

@@ -1,7 +1,7 @@
 .menu {
   color: var(--pink-500);
   list-style: none;
-  display: flex; /* Menu é oculto por padrão */
+  display: flex;
   justify-content: flex-end;
   padding: 2rem 6rem;
   gap: 3.5rem;
@@ -12,18 +12,27 @@
 }
 
 @media (max-width: 768px) {
+  .menu {
+    color: var(--pink-500);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+  }
+  .menuactive {
+    color: var(--pink-500);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    visibility: visible;
+  }
   .header nav {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   .btnMobile {
     display: block;
-  }
-  .menu.active {
-    display: flex;
-  }
-  .menu:not(.active) {
-    display: none;
   }
 }
